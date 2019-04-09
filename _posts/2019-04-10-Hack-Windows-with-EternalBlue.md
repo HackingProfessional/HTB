@@ -1,5 +1,6 @@
 ---
 title: "How to Hack Windows with EternalBlue"
+comments: true
 author: Gerh
 featured-img: EternalBlue
 image: "https://hackingprofessional.github.io/Security/images/EternalBlue.jpg"
