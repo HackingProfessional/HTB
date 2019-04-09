@@ -32,6 +32,8 @@ Today we will learn a variety of interesting things, all thanks to the HackTheBo
 11. How to evade windows defend with MsfVenon.
 12. How to scale privileges with incognito and RottenPotato
 
+## Hacking [Tally](https://www.hackthebox.eu/home/machines/profile/113)
+## Initial part
 
 As always we will start enumerating our victim machine with Nmap.
 
