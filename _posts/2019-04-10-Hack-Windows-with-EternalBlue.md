@@ -3,7 +3,7 @@ title: "How to Hack Windows with EternalBlue"
 comments: true
 author: Gerh
 featured-img: EternalBlue
-image: "https://hackingprofessional.github.io/Security/images/EternalBlue.jpg"
+image: "https://hackingprofessional.github.io/HTB/assets/img/posts/EternalBlue.jpg"
 description: "Using the NSA's EternalBlue exploit"
 categories: [Hacking Windows, Hacking from 0, Metasploit Framework, 0 Day]
 ---
