@@ -16,7 +16,7 @@ Within the filtered tools, there is an exploit (EternalBlue) that allows exploit
   - Microsoft Bulletin: [MS17-010(Critical)](https://www.microsoft.com/en-us/msrc?rtc=1)  
   - Common Vulnerabilities and Exposures: [CVE-2017-0143](https://nvd.nist.gov/vuln/detail/CVE-2017-0143)  
 
-### ¿WHAT EFFECT HAVE THIS VULNERABILITY?*  
+### ¿WHAT EFFECT HAVE THIS VULNERABILITY?  
 This vulnerability was used to propagate Ransomware Wanna Cry, which encrypted data from companies, and medical centers. To date, there are many variants of Ransomeware.  
 
 ## Hacking [Blue](https://www.hackthebox.eu/home/machines/profile/51)
@@ -110,7 +110,7 @@ Host script results:
 |_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
 ```
 
-Another way to evaluate the above is using the scripts of the category *vuln.*
+Another way to evaluate the above is using the scripts of the category **vuln.**
 
 ```zsh
 ╭─[~/Desktop/APOLO/Ethic4l-Hacking/Operations/Premium/Blue]─[root@Arthorias]─[0]─[3672]
