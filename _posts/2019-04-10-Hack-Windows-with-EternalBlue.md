@@ -9,7 +9,7 @@ categories: [Hacking Windows, Hacking from 0, Metasploit Framework, 0 Day]
 ---
 
 Hello Hackers!!  
-On April 8 the group The Shadow Brokers after entering the systems of the NSA, to expose in their Github the tools they found.  
+On April 8 of 2017, the group The Shadow Brokers after entering the systems of the NSA, to expose in their Github the tools they found.  
 
 Within the filtered tools, there is an exploit (EternalBlue) that allows exploiting a vulnerability in the SMB protocol version 1, and of this way can execute Remote Code (RCE) on the victim machine gaining access to the system.  
 
