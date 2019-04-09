@@ -6,7 +6,7 @@ Learn Hacking With Us!
 **-Cybersecurity Analyst**                           
 
 # Credits
-- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
+- Theme Original: [Vangelis Tzortzis](https://github.com/srekoble)  
 - Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
 
 ### Others
