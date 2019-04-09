@@ -2,7 +2,7 @@
 title: "How to Hack Windows with EternalBlue"
 author: Gerh
 featured-img: EternalBlue
-image: "https://hackingprofessional.github.io/Security/images/EternalBlue.png"
+image: "https://hackingprofessional.github.io/Security/images/EternalBlue.jpg"
 description: "Using the NSA's EternalBlue exploit"
 categories: [Hacking Windows, Hacking from 0, Metasploit Framework, 0 Day]
 ---
@@ -18,8 +18,8 @@ Within the filtered tools, there is an exploit (EternalBlue) that allows exploit
 *WHAT EFFECT HAVE THIS VULNERABILITY?*  
 This vulnerability was used to propagate Ransomware Wanna Cry, which encrypted data from companies, and medical centers. To date, there are many variants of Ransomeware.  
 
-## Hacking [Blue]()
-Today we will learn how to exploit this vulnerability using Metasploit, for this demonstration an intrusion test will be performed towards the Blue machine of the HackTheBox platform.
+## Hacking [Blue](https://www.hackthebox.eu/home/machines/profile/51)
+Today we will learn how to exploit this vulnerability using Metasploit, for this demonstration an intrusion test will be performed towards the [Blue](https://www.hackthebox.eu/home/machines/profile/51) machine of the HackTheBox platform.
 
 ### Network Enumeration
 Let’s start with a quick NMAP scan to discover open ports.
