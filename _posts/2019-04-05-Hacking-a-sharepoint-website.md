@@ -9,28 +9,29 @@ description: Learn pentesting web from 0 with HackTheBox (Tally).
 categories: [Enumeration, Pentesting WEB, Escalation Privilege, Bypass Firewall]
 ---
 
-Hello Hackers!
+Hello Hackers!  
 Today we will learn a variety of interesting things, all thanks to the HackTheBox machine called Tally.
 
 ## With this tutorial you will learn:
-    - How to perform an intrusion test on a server with Sharepoint
-    - How to Hack KeePass Passwords using Hashcat
-    - How to use FTP
-      - List Files.
-      - Download Files.
-      - Upload Files.
-    - How to use SMBClient for the service SMB.
-      - List Files.
-      - Download Files.
-    - How to use Hashcat from 0.
-      - how to crack a keepass database.
-    - How to use Metasploit Framework.
-    - How to use SQSH
-    - how to perform a directory discovery with Gobuster.
-    - how to perform a simple port scan with Nmap.
-    - How to evade windows defend with Veil/Evasion
-    - How to evade windows defend with MsfVenon.
-    - How to scale privileges with incognito and RottenPotato
+1. How to perform an intrusion test on a server with Sharepoint
+2. How to Hack KeePass Passwords using Hashcat
+3. How to use FTP
+    - List Files.
+    - Download Files.
+    - Upload Files.
+4. How to use SMBClient for the service SMB.
+    - List Files.
+    - Download Files.
+5. How to use Hashcat from 0.
+    - how to crack a keepass database.
+6. How to use Metasploit Framework.
+7. How to use SQSH
+8. How to perform a directory discovery with Gobuster.
+9. How to perform a simple port scan with Nmap.
+10. How to evade windows defend with Veil/Evasion
+11. How to evade windows defend with MsfVenon.
+12. How to scale privileges with incognito and RottenPotato
+
 
 As always we will start enumerating our victim machine with Nmap.
 
