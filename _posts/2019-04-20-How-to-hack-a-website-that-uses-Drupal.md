@@ -163,12 +163,13 @@ Next, we will intercept the previous request with burpsuite.
 ![AdminDeniedBastard](https://hackingprofessional.github.io/HTB/assets/img/posts/BurpDeniedBastard.png "Intercepted request on Burp")  
 
 We managed to identify that in sending the request, there is a cookie with the value of **hah_js=1**, what we must do is manipulate this value and assign the values that the exploit previously exported.  
-The session file is in format:- 
--Session_name:abc 
--Session_id:def 
--Token:xyz 
-Now we need to edit this like this 
--abc=def;token=xyz  
+The session file is in format:  
+-Session_name:abc  
+-Session_id:def  
+-Token:xyz  
+
+The structure of the cookie must go as follows:  
+abc=def;token=xyz  
 
 ![AdminDeniedBastard](https://hackingprofessional.github.io/HTB/assets/img/posts/AdminBastard.png "Intercepted request on Burp")  
 
@@ -177,7 +178,7 @@ Now we need to edit this like this
 Another way to perform the previously indicated process is using the Google Chrome console.
 By means of Javascript it is possible to inject the cookie, this is achieved in the following way:  
 Press F12, then click on console and define the cookie:  
-document.cookie = “Session_name=Session_id;token=Token”  
+document.cookie = "Session_name=Session_id;token=Token"   
 
 ![AdminDeniedBastard](https://hackingprofessional.github.io/HTB/assets/img/posts/InspecElemAdmBastard.png "Session hijacking with Javascript")  
 
