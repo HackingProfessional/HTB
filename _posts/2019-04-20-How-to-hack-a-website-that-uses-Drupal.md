@@ -139,7 +139,7 @@ After the execution of the exploit, we are exported the following files:
 
 ```zsh
 ╭─[~/Desktop/APOLO/Ethic4l-Hacking/Operations/Premium/Bastard]─[root@Arthorias]─[0]─[4401]
-╰─[:)] # l
+╰─[:)] # ls -la
 total 292K
 drwxr-xr-x 4 root root 4.0K Apr 17 03:11 .
 drwxr-xr-x 8 root root 4.0K Apr 13 15:23 ..
