@@ -24,7 +24,7 @@ In other words, vulnerability XXE consists of an injection that takes advantage 
 If you want to know more about this vulnerability, I invite you to read the following official post of OWASP.  
 [Article Complete](https://www.owasp.org/index.php/Top_10-2017_A4-XML_External_Entities_(XXE))  
 
-# With this tutorial you will learn:
+# With this tutorial you will learn:  
     - How to perform a simple port scan with Nmap.
     - How to perform a directory discovery with dirb.
     - How to intercept and manipulate requests with burpsuite.
