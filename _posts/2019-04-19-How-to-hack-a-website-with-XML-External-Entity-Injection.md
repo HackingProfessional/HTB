@@ -86,7 +86,6 @@ DOWNLOADED: 4612 - FOUND: 2
 From the results of DIRB, we managed to identify a URL that allows us to upload XML files.  
 http://10.10.10.91:5000/upload  
 
-![UploadFileDevoops](https://hackingprofessional.github.io/HTB/assets/img/posts/UploadFileDevoops.png "Upload File XML")  
 
 # Exploiting XML External Entity (XXE)  
 
