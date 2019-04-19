@@ -230,7 +230,7 @@ xgQt1LOdApYoosALYta1JPen+65V02Fy5NgtoijLzvmNSz+rpRHGK6E8u3ihmmaq
 ╰─[:)] # chmod 600 key
 ╭─[~/Desktop/APOLO/Ethic4l-Hacking/Operations/Premium/devoops]─[root@Arthorias]─[0]─[4444]
 ╰─[:)] # ssh -i key roosa@10.10.10.91
-The authenticity of host '10.10.10.91 (10.10.10.91)' can't be established.
+The authenticity of host '10.10.10.91 (10.10.10.91)' can not be established.
 ECDSA key fingerprint is SHA256:hbD2D4PdnIVpAFHV8sSAbtM0IlTAIpYZ/nwspIdp4Vg.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '10.10.10.91' (ECDSA) to the list of known hosts.
