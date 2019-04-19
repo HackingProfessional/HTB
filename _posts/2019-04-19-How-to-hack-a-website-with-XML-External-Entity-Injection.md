@@ -16,8 +16,8 @@ Before starting I want to clarify that all my published content is done for educ
 I am not responsible for the misuse they may give you.  
 
 XML EXTERNAL ENTITY, refers to a server request forgery attack (SSRF), by which an attacker is capable of causing:  
-     - Access to local or remote files and services
-     - Denial of service (DDoS)  
+    - Access to local or remote files and services  
+    - Denial of service (DDoS)  
 
 In other words, vulnerability XXE consists of an injection that takes advantage of the misconfiguration of the XML interpreter allowing external entities to be included, this attack is made against an application that interprets XML language in its parameters.  
 
@@ -25,13 +25,13 @@ If you want to know more about this vulnerability, I invite you to read the foll
 [Article Complete](https://www.owasp.org/index.php/Top_10-2017_A4-XML_External_Entities_(XXE))  
 
 # With this tutorial you will learn:  
-    - How to perform a simple port scan with Nmap.
-    - How to perform a directory discovery with dirb.
-    - How to intercept and manipulate requests with burpsuite.
-    - How to exploit the vulnerability of XML External Entity (XXE)
-    - How to connect by SSH with a RSA private key
-    - How to obtain sensitive data through GIT
-    - Learn about Dumping Git Data from Misconfigured Web Servers
+   - How to perform a simple port scan with Nmap.
+   - How to perform a directory discovery with dirb.
+   - How to intercept and manipulate requests with burpsuite.
+   - How to exploit the vulnerability of XML External Entity (XXE)
+   - How to connect by SSH with a RSA private key
+   - How to obtain sensitive data through GIT
+   - Learn about Dumping Git Data from Misconfigured Web Servers
 
 # Hacking [DevOops](https://www.hackthebox.eu/home/machines/profile/140)
 
